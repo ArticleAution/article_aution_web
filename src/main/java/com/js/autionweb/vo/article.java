@@ -7,7 +7,9 @@ public class article {
 	String title;
 	String introduce;
 	String img;
+	String genre;
 	
+
 	public int getArticle_id() {
 		return article_id;
 	}
@@ -37,6 +39,12 @@ public class article {
 	}
 	public void setImg(String img) {
 		this.img = img;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
 	}
 	
 }
